@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    width: 100%;
+    height: 150%;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: #0d1b2a;
+    display: flex   ;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+    
+}
+.nav img{
+    width: 10vh;
+   
+    margin-left: 1vw;
+}
+.nav2{
+    display: flex;
+    gap: 7vw;
+    margin-right: 1vw;
+   
+  
+}
+.nav h4{
+    font-weight: 600;
+    color: whitesmoke;
+    display: flex;
+    font-size: 1.2vw;
+    
+}
+.content{
+    width: 100%;
+    height:100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+   
+}
+.top{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+  
+    
+}
+.topimg{
+    width: 100%;
+    height: 100%;
+}
+.bottom{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+}
+.bottomimg{
+    width: 100%;
+    height: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #0d1b2a;
+    width: 100%;
+    height: calc(150% - 100% - 100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.box1 img{
+    width: 10vh;    
+    margin-left: 1vw;
+}
+.box1  {
+    width: 40%;
+    height: 50%;
+    
+}
+.box1 h3{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 1vh;
+    color: #353535    ;
+    
+}
+.box1 p{
+    color: #ffff;
+    font-size: 1vw;
+    font-weight: 250;
+}   
+.boxpart2{
+    width: 30%;
+    height: 50%;
+    padding: 6vw 10vw;
+}
+.boxpart2 h2{
+    font-size: 1vw;
+    font-weight: 400;
+    color: #ffff;
+} 
+.boxpart2 h3{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #353535;
+}
+.boxpart3{
+    width: 50%;
+    height: 50%;
+    padding: 6vw 0;
+}
+.boxpart3 i{
+    color: #B5E2FA;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+.boxpart3 h3{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #353535;
+}
+a{
+    color: #ffff;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .nav h4{
+        font-size: 3vw;
+        font-weight: 800;
+    }
+    .nav{
+        height: 20px;
+        padding: 5vw 0;
+    }
+   .box1 h3{
+    font-size: 3vw;
+   }
+   .box1 P{
+    font-size: 1.7vw;
+    
+   }
+   .box1{
+    width: auto;
+   }
+   .boxpart2 h3{
+    font-size: 3vw;
+
+   }
+   .boxpart2 h2{
+    font-size: 1.5vw;
+   }
+   .boxpart3 h3{
+    font-size: 3vw;
+
+   }
+   .boxpart3 i{
+    font-size: 3vw;
+   }
+}
